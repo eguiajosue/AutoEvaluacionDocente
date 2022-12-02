@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesi&#xF3;n - ITNLD</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/lib/shards-ui/css/shards.min.css" />
+    <link id="theme-style" rel="stylesheet" href="/css/portal.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <main>
+        
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 login-section-wrapper">
+            <div class="brand-wrapper">
+                <img src="/img/logo-tec.png" alt="logo" class="logo">
+            </div>
+            <div class="login-wrapper my-auto">
+                <h1 class="login-title">Iniciar Sesión</h1>
+                <form id="account" method="post">
+                    <div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                    <div class="form-group mb-3">
+                        <label for="Input_Email">Correo Electrónico</label>
+                        <input class="form-control" placeholder="email@example.com" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="" />
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Input_Password">Contraseña</label>
+                        <input class="form-control" placeholder="ingresa tu contraseña" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password" />
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="checkbox">
+                            <label for="Input_RememberMe">
+                                <input type="checkbox" data-val="true" data-val-required="The &#xBF;Recordar sesi&#xF3;n? field is required." id="Input_RememberMe" name="Input.RememberMe" value="true" />
+                                &#xBF;Recordar sesi&#xF3;n?
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn app-btn-primary mb-3">Iniciar sesión</button>
+                    </div>
+
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8PLhPbTXedxMkrQgToKZRqPMvuiRh3pjStSYA8W4VBjRMiVIk8M9pJMnSIipgAF6NhGn4THOvUnws_L1nz6IUgIYiJOBDJT308Ddt3Z4_jTGB9mGHDqwcBpqNFihnTxcv-KDKW-KtnFxADOqZFizMHU" /><input name="Input.RememberMe" type="hidden" value="false" /></form>
+                <a id="forgot-password" class="forgot-password-link" href="/Identity/Account/ForgotPassword">¿Olvidaste tu contraseña?</a>
+                <p class="login-wrapper-footer-text mt-5">¿Necesitas pagar los cursos de verano? <a class="text-primary" href="/Identity/Account/RegisterExternal?returnUrl=%2FEvaluacionDocente%2FEncuesta%2FConstancia%3FnoControl%3D20100191">Registrate Aquí</a></p>
+                <hr />
+                <p class="login-wrapper-footer-text ">¿Eres egresado y necesitas una cuenta? <a class="text-primary" href="/Identity/Account/Register?returnUrl=%2FEvaluacionDocente%2FEncuesta%2FConstancia%3FnoControl%3D20100191">Registrate Aquí</a></p>
+                <hr />
+                <p class="login-wrapper-footer-text">¿Eres Aspirante y necesitas una cuenta? <a class="text-primary" href="/Identity/Account/RegisterAspirante?returnUrl=%2FEvaluacionDocente%2FEncuesta%2FConstancia%3FnoControl%3D20100191">Registrate Aquí</a></p>
+                <hr />
+
+
+                <p class="login-wrapper-footer-text"><a href="/Terminos" class="text-primary">Términos de pagos y cancelaciones</a></p>
+                
+            </div>
+            <p class="login-wrapper-footer-text mt-5"><a class="text-primary" href="/Identity/Account/Login-admin?returnUrl=%2FEvaluacionDocente%2FEncuesta%2FConstancia%3FnoControl%3D20100191">.</a></p>
+        </div>
+        <div class="col-sm-6 px-0 d-none d-sm-block">
+            <img src="/img/login-img.png" alt="login image" class="login-img">
+        </div>
+    </div>
+</div>
+
+
+        <!-- Footer Section -->
+
+    </main>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/popper.js/umd/popper.js"></script>
+    <script src="/lib/font-awesome/js/fontawesome.min.js"></script>
+    <script src="/lib/shards-ui/js/shards.min.js"></script>
+    <script src="/js/site.js?v=L2-Se2Y_VFmb7R9GrU1xdvxKgNIaNVQ8EYjGmrqtJGA"></script>
+    
+    
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+    </script>
+<script>(window.jQuery && window.jQuery.validator||document.write("\u003Cscript src=\u0022/Identity/lib/jquery-validation/dist/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o\u002Bok\u002Bt/SAKlL5mvXLr0OXNi1Hp\u0022\u003E\u003C/script\u003E"));</script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+    </script>
+<script>(window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive||document.write("\u003Cscript src=\u0022/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C/script\u003E"));</script>
+
+
+
+
+</body>
+</html>
