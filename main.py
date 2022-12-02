@@ -35,9 +35,6 @@ print(
 str_correo = input("Ingrese su correo electrónico institucional: ")
 str_password = input("Ingrese su contraseña: ")
 
-# str_correo = "L20100191@nlaredo.tecnm.mx"
-# str_password = "Eurj.gdsa4"
-
 driver = webdriver.Edge()
 
 driver.maximize_window()
