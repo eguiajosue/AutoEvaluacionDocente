@@ -7,7 +7,7 @@ Sistema para poder realizar la evaluación docente de ITNL de forma automática
  3. Una vez descargado, lo abre y se abrirá una consola de comandos
  4. Ingresan su *Numero de Control*  (**NO el correo**)
  5. Ingresan su contraseña del *SIIE*
- 6. Seleccionan su navegador de preferencia (**TIENE QUE SER UNO QUE TENGAN INSTALADO**)
+ 6. Seleccionan su navegador de preferencia (**DE PREFERENCIA USAR EDGE (VIENE INSTALADO JUNTO CON WINDOWS)**)
  7. Presionan *Enter*.
  8. Listo, el programa realizará de forma automática la evaluación.
 ---
